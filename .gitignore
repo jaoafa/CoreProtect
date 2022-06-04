@@ -98,7 +98,6 @@ gradlew.bat
 *.tlb
 *.tli
 *.tlh
-*.tmp
 *.vspscc
 .builds
 *.dotCover
@@ -196,3 +195,5 @@ hs_err_pid*
 
 # Documentation dev folder
 docs/dev/
+
+server/
