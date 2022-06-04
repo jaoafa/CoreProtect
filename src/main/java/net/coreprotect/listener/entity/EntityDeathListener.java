@@ -523,6 +523,9 @@ public final class EntityDeathListener extends Queue implements Listener {
         if (entity == null) {
             return;
         }
+        if(entity.hasMetadata("NPC")){
+            return;
+        }
 
         logEntityDeath(entity, null);
     }
